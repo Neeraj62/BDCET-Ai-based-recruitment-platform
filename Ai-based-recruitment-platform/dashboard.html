@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Candidate Dashboard</h2>
+
+<input type="file" id="resume">
+<button onclick="uploadResume()">Upload Resume</button>
+
+<h3>Available Jobs</h3>
+
+<div class="job-card">
+  <h4>Frontend Developer</h4>
+  <p>Skills: HTML, CSS, JavaScript</p>
+  <button onclick="viewJob()">View Job</button>
+</div>
+
+<div class="job-card">
+  <h4>Backend Developer</h4>
+  <p>Skills: Python, MongoDB, SQL</p>
+  <button onclick="viewJob()">View Job</button>
+</div>
+
+<div id="match-result"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
