@@ -1,0 +1,60 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #0b5ed7;
+  color: white;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+
+.btn {
+  background: #0b5ed7;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.login-box {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.job-card {
+  background: white;
+  margin: 15px;
+  padding: 10px;
+}
